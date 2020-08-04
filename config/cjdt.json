@@ -1,6 +1,9 @@
 {
-  "name": "财经动态",
-  "classforname": "AbstractNews",
+  "title": "财经动态",
+  "classForName": "CjdtNews",
+  "classForProcessor": "CommonHTMLProcessor",
+  "classForFileProcessor": "CommonFileProcessor",
+  "parentDic": "财经动态",
   "originUrl": "http://www.ce.cn/xwzx/gnsz/gdxw/",
   "appendixUrl": "",
   "headers": {
@@ -10,5 +13,7 @@
     "Upgrade-Insecure-Requests": "1"
   },
   "titleSelector": "ul.con > li > span >a",
-  "dataSelector": "ul.con > li > span.f2"
+  "artcleTitleSelector": "h1",
+  "dateSelector": "ul.con > li > span.f2",
+  "contentSelector": "div.TRS_Editor > p"
 }

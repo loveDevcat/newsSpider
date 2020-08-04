@@ -1,0 +1,19 @@
+{
+  "title": "国内新闻",
+  "classForName": "GnxwNews",
+  "classForProcessor": "GnxwNewsProcessor",
+  "classForFileProcessor": "CommonFileProcessor",
+  "parentDic": "国内新闻",
+  "originUrl": "http://www.gov.cn/xinwen/yaowen.htm",
+  "appendixUrl": "",
+  "headers": {
+    "user-agent": "Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
+    "Connection": "keep-alive",
+    "Cookie": "__jsluid_h=d3f753f69b3087093a60a7193850d3a9; route=a2cec3cb28b0d59d32db7b39f74f56a5; __utrace=46083bc42d8153816c554a7869e96c5b; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2216cd6e1c7e0165-012bc5135f34b5-38637706-1024000-16cd6e1c7e148e%22%7D; Hm_lvt_d7682ab43891c68a00de46e9ce5b76aa=1566973445; Hm_lpvt_d7682ab43891c68a00de46e9ce5b76aa=1567048957; _va_ses=*; _va_id=bc8112bd84bfd167.1566973214.2.1567050528.1567050509.",
+    "Upgrade-Insecure-Requests": "1"
+  },
+  "titleSelector": "h4 > a",
+  "dateSelector": "h4 > span.date",
+  "artcleTitleSelector": "h1",
+  "contentSelector": "div.pages_content > p"
+}
